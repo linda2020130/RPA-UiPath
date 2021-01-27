@@ -4,6 +4,7 @@ Collections of RPA works and learning notes.<br>
 ## [104](/104)
 * **Usage**: Generate a list of all current employees from internal website and send an email notice for any related change(e.g. new employees, resigned employees...).
 * **Files**:
+  * [104SSearch](/104/104Search.py): Python code using selenium and BeautifulSoup packages for employees data scraping from internal website.
   * [Find104Change](/104/Find104Change.vb): Excel VBA code for comparing current employee list to last one and generating table of differences.
   * [Flowchart_Get 104 List](/104/Flowchart_Get%20104%20List.png): Flowchart of generating all current employees list from internal website.
     <details><summary>Flowchart</summary>
