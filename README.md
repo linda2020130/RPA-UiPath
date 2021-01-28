@@ -30,28 +30,40 @@ Collections of RPA works and learning notes.<br>
 <br>
 
 ## [Sales Order](/Sales%20Order)
-* **Usage**: Log in to customer's website, download sales orders pdf files based on given time range, and generate/download summary table of current available sales orders.
+* **Usage**: Log in to customer's website, download *sales order pdf files* based on given time range, and generate/download *summary table* of current available sales orders.
 * **Projects**:
-  * Customer A: (Tricky Parts)
+  * Customer A: 
     <details><summary>Outline</summary>
     
     ![Outline_A](/Sales%20Order/Outline_A.png)
     </details>
-  * Customer B: (Tricky Parts)
+    
+    * **Sales Order PDF**: Iterate through all sales order number to generate an url of the sales order pdf file, navigate to it, and hit print button.
+    * **Summary Table**: Need to scrape data from multiple pages with uncertain total pages and no next-page button. --> Iterate through all possible number of page button and break if element is not found.
+  * Customer B:
     <details><summary>Outline</summary>
     
     ![Outline_B](/Sales%20Order/Outline_B.png)
     </details>
-  * Customer M: (Tricky Parts)
+    
+    * **Sales Order PDF**: Only download pdf files with certain order status. Order status, order number, and id of print button need to be scraped from two tables on one website page. Check availability of the next-page button by element attribute before clicking.
+    * **Summary Table**: Click button to download.
+  * Customer M:
     <details><summary>Outline</summary>
     
     ![Outline_M](/Sales%20Order/Outline_M.png)
     </details>
+    
+    * **Sales Order PDF**: Iterate through each print button and get order number from element attribute. Click print button to download and name file by order number.
+    * **Summary Table**: Click button to download.
   * Customer Q: (Tricky Parts)
     <details><summary>Outline</summary>
     
     ![Outline_Q](/Sales%20Order/Outline_Q.png)
     </details>
+    
+    * **Sales Order PDF**: Get order number from downloaded summary table and generate urls based on order number. Navigate to each url to download the pdf file.
+    * **Summary Table**: Click button to download.
   * [Extract SO Info_L](/Sales%20Order/Extract%20SO%20Info_L.vb): Input a sales order from customer L, extract certain columns/rows of information, and output a table with extracted data.
 <br>
 
@@ -60,6 +72,4 @@ Collections of RPA works and learning notes.<br>
   * **Lecture**: Notes of UiPath online lectures and examples.
   * **Project**: Notes of my RPA works including what activities were used, how to use, and some useful tips.
   * **Remark**: Illustrations of other sheets.
-
-
 
