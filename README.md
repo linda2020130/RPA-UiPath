@@ -56,7 +56,7 @@ Collections of RPA works and learning notes.<br>
     
     * **Sales Order PDF**: Iterate through each print button and get order number from element attribute. Click print button to download and name file by order number.
     * **Summary Table**: Click button to download.
-  * Customer Q: (Tricky Parts)
+  * Customer Q:
     <details><summary>Outline</summary>
     
     ![Outline_Q](/Sales%20Order/Outline_Q.png)
