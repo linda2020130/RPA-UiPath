@@ -5,7 +5,7 @@ Collections of RPA works and learning notes.<br>
 * **Usage**: Generate a list of all current employees from internal website and send an email notice for any related change(e.g. new employees, resigned employees...).
 * **Files**:
   * [104SSearch](/104/104Search.py): Python code using selenium and BeautifulSoup packages for employees data scraping from internal website.
-  * [Find104Change](/104/Find104Change.vb): Excel VBA code for comparing current employee list to last one and generating table of differences.
+  * [Find104Change](/104/Find104Change.bas): Excel VBA code for comparing current employee list to last one and generating table of differences.
   * [Flowchart_Get 104 List](/104/Flowchart_Get%20104%20List.png): Flowchart of generating all current employees list from internal website.
     <details><summary>Flowchart</summary>
     
@@ -21,7 +21,7 @@ Collections of RPA works and learning notes.<br>
 ## [Product Line](/Product%20Line)
 * **Usage**: Download current product line information and send an email notice for any related change(e.g. new product line, change PM...).
 * **Files**:
-  * [FindPLChange](/Product%20Line/FindPLChange.vb): Excel VBA code for comparing current product line information to last one and generating table of differences.
+  * [FindPLChange](/Product%20Line/FindPLChange.bas): Excel VBA code for comparing current product line information to last one and generating table of differences.
   * [Outline_PL Change](/Product%20Line/Outline_PL%20Change.png): Outline of downloading current product line information, invoking VBA code to generate table of differences, and sending an email notice for any product line related change.
     <details><summary>Outline</summary>
     
