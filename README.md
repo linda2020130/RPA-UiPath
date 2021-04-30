@@ -72,4 +72,7 @@ Collections of RPA works and learning notes.<br>
   * **Lecture**: Notes of UiPath online lectures and examples.
   * **Project**: Notes of my RPA works including what activities were used, how to use, and some useful tips.
   * **Remark**: Illustrations of other sheets.
+<br>
 
+## [VB Syntax](/VB%20syntax.vb)
+Quickly look up VB.NET common syntax.
