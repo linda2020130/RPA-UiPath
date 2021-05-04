@@ -19,9 +19,9 @@ Collections of RPA works and learning notes.<br>
 <br>
 
 ## [Invoice](/Invoice)
-* [Extract_pdf_S](/Extract_pdf_S.vbs): Input a invoice pdf file from customer S, extract certain columns/rows of information, and output a table with extracted data.
-* [PDF2Excel](PDF2Excel.py): Save tables in the pdf files to excel files via Python.
-* [SaveAttachment](SaveAttachment.vbs): Get attachments from msg files(email) and save to assigned folder via VBScript.
+* [Extract_pdf_S](/Invoice/Extract_pdf_S.vbs): Input a invoice pdf file from customer S, extract certain columns/rows of information, and output a table with extracted data.
+* [PDF2Excel](/Invoice/PDF2Excel.py): Save tables in the pdf files to excel files via Python.
+* [SaveAttachment](/Invoice/SaveAttachment.vbs): Get attachments from msg files(email) and save to assigned folder via VBScript.
 <br>
 
 ## [Product Line](/Product%20Line)
