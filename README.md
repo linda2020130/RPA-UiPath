@@ -18,6 +18,12 @@ Collections of RPA works and learning notes.<br>
     </details>
 <br>
 
+## [Invoice](/Invoice)
+* [Extract_pdf_S](/Extract_pdf_S.vbs): Input a invoice pdf file from customer S, extract certain columns/rows of information, and output a table with extracted data.
+* [PDF2Excel](PDF2Excel.py): Save tables in the pdf files to excel files via Python.
+* [SaveAttachment](SaveAttachment.vbs): Get attachments from msg files(email) and save to assigned folder via VBScript.
+<br>
+
 ## [Product Line](/Product%20Line)
 * **Usage**: Download current product line information and send an email notice for any related change(e.g. new product line, change PM...).
 * **Files**:
