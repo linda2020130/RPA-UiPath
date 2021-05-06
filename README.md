@@ -70,7 +70,8 @@ Collections of RPA works and learning notes.<br>
     
     * **Sales Order PDF**: Get order number from downloaded summary table and generate urls based on order number. Navigate to each url to download the pdf file.
     * **Summary Table**: Click button to download.
-  * [Extract SO Info_L](/Sales%20Order/Extract%20SO%20Info_L.vb): Input a sales order from customer L, extract certain columns/rows of information, and output a table with extracted data.
+  * [Extract SO Info_C](/Sales%20Order/Extract%20SO%20Info_C.vbs): Input a sales order from customer C, extract certain columns/rows of information, and output a table with extracted data.
+  * [Extract SO Info_L](/Sales%20Order/Extract%20SO%20Info_L.vbs): Input a sales order from customer L, extract certain columns/rows of information, and output a table with extracted data.
 <br>
 
 ## [UiPath Notes](/UiPath_Notes.xlsx)
