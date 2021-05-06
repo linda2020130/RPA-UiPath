@@ -1,7 +1,17 @@
 # RPA-UiPath
 Collections of RPA works and learning notes.<br>
 
-## [104](/104)
+## Table of Contents
+* [104](#104)
+* [Invoice](#invoice)
+* [Product Line](#PL)
+* [Sales Order](#SO)
+* [UiPath Notes](#notes)
+* [VB Syntax](#syntax)
+
+<h2 id="104">104</h2>
+
+[🐳](/104)
 * **Usage**: Generate a list of all current employees from internal website and send an email notice for any related change(e.g. new employees, resigned employees...).
 * **Files**:
   * [104SSearch](/104/104Search.py): Python code using selenium and BeautifulSoup packages for employees data scraping from internal website.
@@ -18,13 +28,17 @@ Collections of RPA works and learning notes.<br>
     </details>
 <br>
 
-## [Invoice](/Invoice)
+<h2 id="invoice">Invoice</h2>
+
+[🐳](/Invoice)
 * [Extract_pdf_S](/Invoice/Extract_pdf_S.vbs): Input a invoice pdf file from customer S, extract certain columns/rows of information, and output a table with extracted data.
 * [PDF2Excel](/Invoice/PDF2Excel.py): Save tables in the pdf file to an excel file via Python.
 * [SaveAttachment](/Invoice/SaveAttachment.vbs): Get attachments from msg files(email) and save to assigned folder via VBScript.
 <br>
 
-## [Product Line](/Product%20Line)
+<h2 id="PL">Product Line</h2>
+
+[🐳](/Product%20Line)
 * **Usage**: Download current product line information and send an email notice for any related change(e.g. new product line, change PM...).
 * **Files**:
   * [FindPLChange](/Product%20Line/FindPLChange.bas): Excel VBA code for comparing current product line information to last one and generating table of differences.
@@ -35,7 +49,9 @@ Collections of RPA works and learning notes.<br>
     </details>
 <br>
 
-## [Sales Order](/Sales%20Order)
+<h2 id="SO">Sales Order</h2>
+
+[🐳](/Sales%20Order)
 * **Usage**: Log in to customer's website, download *sales order pdf files* based on given time range, and generate/download *summary table* of current available sales orders.
 * **Projects**:
   * Customer A: 
@@ -75,12 +91,16 @@ Collections of RPA works and learning notes.<br>
   * [PDF2Text](/Sales%20Order/PDF2Text.py): Save strings in the pdf file to a text file via Python.
 <br>
 
-## [UiPath Notes](/UiPath_Notes.xlsx)
+<h2 id="notes">UiPath Notes</h2>
+
+[🐳](/UiPath_Notes.xlsx)
 * **Sheets**:
   * **Lecture**: Notes of UiPath online lectures and examples.
   * **Project**: Notes of my RPA works including what activities were used, how to use, and some useful tips.
   * **Remark**: Illustrations of other sheets.
 <br>
 
-## [VB Syntax](/VB%20syntax.vb)
+<h2 id="syntax">VB Syntax</h2>
+
+[🐳](/VB%20syntax.vbs)
 Quickly look up VB.NET common syntax.
