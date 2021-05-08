@@ -31,7 +31,7 @@ Collections of RPA works and learning notes.<br>
 <h2 id="invoice">Invoice</h2>
 
 [🐳](/Invoice)
-* [Extract_pdf_S](/Invoice/Extract_pdf_S.vbs): Input a invoice pdf file from customer S, extract certain columns/rows of information, and output a table with extracted data.
+* [Extract_pdf_S](/Invoice/Extract_pdf_S.vb): Input a invoice pdf file from customer S, extract certain columns/rows of information, and output a table with extracted data.
 * [PDF2Excel](/Invoice/PDF2Excel.py): Save tables in the pdf file to an excel file via Python.
 * [SaveAttachment](/Invoice/SaveAttachment.vbs): Get attachments from msg files(email) and save to assigned folder via VBScript.
 <br>
@@ -86,8 +86,8 @@ Collections of RPA works and learning notes.<br>
     
     * **Sales Order PDF**: Get order number from downloaded summary table and generate urls based on order number. Navigate to each url to download the pdf file.
     * **Summary Table**: Click button to download.
-  * [Extract SO Info_C](/Sales%20Order/Extract%20SO%20Info_C.vbs): Input a sales order from customer C, extract certain columns/rows of information, and output a table with extracted data.
-  * [Extract SO Info_L](/Sales%20Order/Extract%20SO%20Info_L.vbs): Input a sales order from customer L, extract certain columns/rows of information, and output a table with extracted data.
+  * [Extract SO Info_C](/Sales%20Order/Extract%20SO%20Info_C.vb): Input a sales order from customer C, extract certain columns/rows of information, and output a table with extracted data.
+  * [Extract SO Info_L](/Sales%20Order/Extract%20SO%20Info_L.vb): Input a sales order from customer L, extract certain columns/rows of information, and output a table with extracted data.
   * [PDF2Text](/Sales%20Order/PDF2Text.py): Save strings in the pdf file to a text file via Python.
 <br>
 
