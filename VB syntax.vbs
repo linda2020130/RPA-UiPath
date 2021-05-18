@@ -113,6 +113,8 @@ dtTEST.Columns
 dtTEST.Rows.Count
 ' 取得資料表的第一個欄位內容
 dtTEST.Columns(0).ToString
+' 將資料欄名稱"strColumnName"改為""TEST1"
+dtTEST.Columns("strColumnName").ColumnName = "TEST1"
 ' 取得資料表內第1個資料列的第2個欄位內容
 dtTEST.Rows(0)(1).ToString
 ' 取得資料表內第一個資料列的指定欄位名稱之內容
@@ -138,7 +140,8 @@ dtTEST.DefaultView.Sort = "colName1 DESC, colName2"   ' colName1相同再依colN
 dtTEST = dtTEST.DefaultView.ToTable
 ' 檢查工作列表是否為空
 dtTEST is Nothing   ' return True or False
-
+' 將dtTEST的欄位名稱組成array of string
+dtTEST.Columns.Cast(Of DataColumn).Select(Function (x) x.Columnname).toArray
 
 
 ' ========= Excel工作表 =========
@@ -167,9 +170,9 @@ CDbl(strNumber)
 System.Convert.ToDouble(strNumber)
 ' 字串轉decimal
 CDec(strNumber)
-' 指定日期字串依日期格式轉日期
+' 指定日期字串依日期格式(yyyyMMdd)轉日期
 Datetime.ParseExact(strDate,“yyyyMMdd”,System.Globalization.CultureInfo.InvariantCulture)
-' 時間差換算成天數(包含整數和小數)
+' 時間差換算成天數(包含整數和小數, e.g. 3.25天)
 dateDiff.TotalDays
 
 
@@ -178,7 +181,7 @@ dateDiff.TotalDays
 Dim qty As Decimal = Convert.ToDecimal(strNumber)   ' 將strNumber轉成數字存在qty變數裡
 ' 檢查Object是否為數字
 Information.IsNumeric(var_datarow(0))   ' return True or False
-' 鄉廚並回傳整數結果
+' 相除並回傳整數結果
 5 \ 4   ' return 1
 
 
